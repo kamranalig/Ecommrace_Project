@@ -1,3 +1,4 @@
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import Footer from './commonComponent/Footer/Footer';
 import AppNavbar from './commonComponent/Navbar/Navbar';
 import Products from './commonComponent/products/Products';
