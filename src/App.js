@@ -1,6 +1,5 @@
-import './App.css';
 import Footer from './commonComponent/Footer/Footer';
-import Navbar from './commonComponent/Navbar/Navbar';
+import AppNavbar from './commonComponent/Navbar/Navbar';
 import Products from './commonComponent/products/Products';
 import Blogs from './components/blogs/Blogs';
 import Discounts from './components/discount/Discounts';
@@ -10,8 +9,8 @@ import Slider from './components/slider/Slider';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
+    <>
+      <AppNavbar />
       <HeroSection/>
       <Discounts/>
       <Slider/>
@@ -19,7 +18,7 @@ function App() {
       <Blogs/>
       <Partner/>
       <Footer/>
-    </div>
+    </>
   );
 }
 
