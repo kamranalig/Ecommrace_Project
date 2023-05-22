@@ -12,14 +12,15 @@ const AppNavbar = () => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto center">
+          <Nav.Link href="#/">Home</Nav.Link>
           <Nav.Link href="#features">All Products</Nav.Link>
           <Nav.Link href="#pricing">Blogs</Nav.Link>
           <Nav.Link href="#about">About Us</Nav.Link>
           <Nav.Link href="#contact">Contact Us</Nav.Link>
         </Nav>
         <Nav>
-          <Nav.Link href="#deets">Login</Nav.Link>
-          <Nav.Link href="#memes">Add to Cart</Nav.Link>
+          <Nav.Link href="#Login">Login</Nav.Link>
+          <Nav.Link href="#cart">Add to Cart</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>
