@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 const AppNavbar = () => {
   return (
     <div className='mb-5'>
-       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed='top'>
+       <Navbar collapseOnSelect expand="lg"  bg="dark" variant="dark" fixed='top'>
     <Container fluid>
       <Navbar.Brand href="#home">E-Commerace</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
