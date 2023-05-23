@@ -4,6 +4,7 @@ import HeroSection from './components/heroSection/HeroSection';
 import Discounts from './components/discount/Discounts';
 import Products from './commonComponent/products/Products';
 import Blogs from './components/blogs/BlogList';
+import ServiceList from './components/services/ServiceList';
 import Partner from './components/partner/Partner';
 import Footer from './commonComponent/Footer/Footer';
 
@@ -15,6 +16,7 @@ function App() {
       <Discounts/>
       <Products/>
       <Blogs/>
+      <ServiceList/>
       <Partner/>
       <Footer/>
     </>
