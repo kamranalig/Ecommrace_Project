@@ -30,7 +30,6 @@ function App() {
           <Route path='/login' element={<LoginPage/>}/>
           <Route path='/register' element={<RegisterForm/>}/>
           <Route path='/forget'  element={<ForgetForm/>}/>
-
        </Routes>
       <Footer/>
       </Router>
