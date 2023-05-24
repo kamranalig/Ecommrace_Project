@@ -1,5 +1,6 @@
 import React from 'react';
 import "./HeroSection.css"; 
+import { Link } from 'react-router-dom';
 const HeroSection = () => {
   return (
     <div className='container mt-5'>
@@ -7,7 +8,7 @@ const HeroSection = () => {
         <div className='col pt-4'>
           <h1 className='heading'>CUSTOMIZED PRINTED TEES</h1>
           <p>Nam at congue diam etiam erat lectus, finibus eget commodo quis, congue diam etiam erat lectus.</p>
-          <button type="button" className="btn btn-outline-dark">EXPLORE STORE</button>
+         <Link to="/products"> <button type="button" className="btn btn-outline-dark">EXPLORE STORE</button></Link>
         </div>
         <div className='col'>
           <img src="https://websitedemos.net/custom-printing-04/wp-content/uploads/sites/222/2020/02/boy-t2.png" alt="hero section img" />

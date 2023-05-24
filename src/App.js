@@ -1,3 +1,5 @@
+import React from 'react';
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import AppNavbar from './commonComponent/Navbar/Navbar';
 import HomePage from './Pages/landing page/HomePage';
@@ -7,21 +9,27 @@ import AboutPage from  "./Pages/about/AboutPage"
 import ContactPage from "./Pages/contact/ContactPage";
 import LoginPage from "./Pages/auth/LoginPage";
 import AddToCartPage from "./Pages/addToCart/AddToCartPage";
+import DetailPage from "./Pages/detailPage/DetailPage";
 import Footer from './commonComponent/Footer/Footer';
 
 function App() {
   return (
-    <>
+    <React.Fragment>
+    <Router>
       <AppNavbar />
-       <HomePage/>
-       <AllProducts/>
-       <BlogsPage/>
-       <AboutPage/>
-       <ContactPage/>
-       <LoginPage/>
-       <AddToCartPage/>
+        <Routes>
+          <Route path='/' element={<HomePage/>}/>
+          <Route path='/products' element={<AllProducts/>}/>
+          <Route path='/blogs' element={<BlogsPage/>}/>
+          <Route path='/about' element={<AboutPage/>}/>
+          <Route path='/contact' element={<ContactPage/>}/>
+          <Route path='/login' element={<LoginPage/>}/>
+          <Route path='/cart' element={<AddToCartPage/>}/>
+          <Route path='/detail' element={<DetailPage/>}/>
+       </Routes>
       <Footer/>
-    </>
+      </Router>
+    </React.Fragment>
   );
 }
 

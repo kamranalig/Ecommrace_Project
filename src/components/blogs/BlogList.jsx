@@ -1,6 +1,7 @@
 import React from 'react';
-import BlogItem from './BlogItem';
+import { Link } from 'react-router-dom';
 import styles from "./BlogList.module.scss";
+import BlogItem from './BlogItem';
 import { blogData } from "../../data/index";
 const BlogList = () => {
   return (
@@ -23,7 +24,7 @@ const BlogList = () => {
         }
       </div>
 
-      <button className="btn btn-secondary">View All Blogs</button>
+    <Link to="/blogs"><button className="btn btn-secondary">View All Blogs</button></Link>  
 
     </div>
   )
