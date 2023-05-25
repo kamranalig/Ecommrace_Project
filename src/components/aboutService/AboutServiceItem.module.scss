@@ -10,6 +10,12 @@
         &:hover{
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         }
+        .card_icon_section{
+            margin-bottom: 10px;
+            i{
+                font-size: 40px;
+            }
+        }
         .card_text_section{
             .text{
                 margin: 0;

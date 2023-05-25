@@ -6,7 +6,7 @@ const AboutServiceItem = () => {
     <div className={styles.card_container}>
       <div className={styles.card}>
         <div className={styles.card_icon_section}>
-
+        <i class="fa-sharp fa-regular fa-tag"></i>
         </div>
         <div className={styles.card_text_section}>
           <h4 className={styles.text}>Best Prices & Offers</h4>
@@ -18,7 +18,7 @@ const AboutServiceItem = () => {
     <div className={styles.card_container}>
       <div className={styles.card}>
         <div className={styles.card_icon_section}>
-
+        <i class="fa-regular fa-handshake"></i>
         </div>
         <div className={styles.card_text_section}>
           <h4 className={styles.text}>Wide Assortment</h4>
@@ -30,7 +30,7 @@ const AboutServiceItem = () => {
     <div className={styles.card_container}>
       <div className={styles.card}>
         <div className={styles.card_icon_section}>
-
+        <i class="fa-sharp fa-solid fa-file-contract"></i>
         </div>
         <div className={styles.card_text_section}>
           <h4 className={styles.text}>Free Delivery</h4>
@@ -42,7 +42,7 @@ const AboutServiceItem = () => {
     <div className={styles.card_container}>
       <div className={styles.card}>
         <div className={styles.card_icon_section}>
-
+        <i class="fa-solid fa-right-left"></i>
         </div>
         <div className={styles.card_text_section}>
           <h4 className={styles.text}>Easy Returns</h4>
@@ -54,7 +54,7 @@ const AboutServiceItem = () => {
     <div className={styles.card_container}>
       <div className={styles.card}>
         <div className={styles.card_icon_section}>
-
+        <i class="fa-regular fa-hand-holding-dollar"></i>
         </div>
         <div className={styles.card_text_section}>
           <h4 className={styles.text}>100% Satisfaction</h4>
@@ -66,7 +66,7 @@ const AboutServiceItem = () => {
     <div className={styles.card_container}>
       <div className={styles.card}>
         <div className={styles.card_icon_section}>
-
+        <i class="fa-brands fa-ideal"></i>
         </div>
         <div className={styles.card_text_section}>
           <h4 className={styles.text}>Great Daily Deal</h4>
