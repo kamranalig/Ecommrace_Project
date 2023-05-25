@@ -1,3 +1,122 @@
+export const discountData = [
+    {
+        id:1,
+        img:'../Assets/tshirt.png',
+        discountTitle:"50",
+        dText:"On T-Shirt",
+    },
+    {
+        id:2,
+        img:'../Assets/shoes.png',
+        discountTitle:"70",
+        dText:"On Shoes",
+    },
+    {
+        id:3,
+        img:'../Assets/bag.png',
+        discountTitle:"40",
+        dText:"On Bags",
+    },
+];
+export const featuredData = [
+    {
+        id:1,
+        img:'../Assets/tshirt.png',
+        pPrice:"£35.00",
+        pDiscountPrice:"£27.00",
+        pText:"PRINTED BLUE TSHIRT",
+        subTitle:"T-Shirt"
+    },
+    {
+        id:2,
+        img:'../Assets/tshirt.png',
+        pPrice:"£35.00",
+        pDiscountPrice:"£27.00",
+        pText:"PRINTED BLUE TSHIRT",
+        subTitle:"T-Shirt"
+    },
+    {
+        id:3,
+        img:'../Assets/tshirt.png',
+        pPrice:"£35.00",
+        pDiscountPrice:"£27.00",
+        pText:"PRINTED BLUE TSHIRT",
+        subTitle:"T-Shirt"
+    },
+    {
+        id:4,
+        img:'../Assets/tshirt.png',
+        pPrice:"£35.00",
+        pDiscountPrice:"£27.00",
+        pText:"PRINTED BLUE TSHIRT",
+        subTitle:"T-Shirt"
+    },
+    {
+        id:5,
+        img:'../Assets/tshirt.png',
+        pPrice:"£35.00",
+        pDiscountPrice:"£27.00",
+        pText:"PRINTED BLUE TSHIRT",
+        subTitle:"T-Shirt"
+    },
+    {
+        id:6,
+        img:'../Assets/tshirt.png',
+        pPrice:"£35.00",
+        pDiscountPrice:"£27.00",
+        pText:"PRINTED BLUE TSHIRT",
+        subTitle:"T-Shirt"
+    },
+    {
+        id:7,
+        img:'../Assets/tshirt.png',
+        pPrice:"£35.00",
+        pDiscountPrice:"£27.00",
+        pText:"PRINTED BLUE TSHIRT",
+        subTitle:"T-Shirt"
+    },
+    {
+        id:8,
+        img:'../Assets/tshirt.png',
+        pPrice:"£35.00",
+        pDiscountPrice:"£27.00",
+        pText:"PRINTED BLUE TSHIRT",
+        subTitle:"T-Shirt"
+    },
+    {
+        id:9,
+        img:'../Assets/tshirt.png',
+        pPrice:"£35.00",
+        pDiscountPrice:"£27.00",
+        pText:"PRINTED BLUE TSHIRT",
+        subTitle:"T-Shirt"
+    },
+    {
+        id:10,
+        img:'../Assets/tshirt.png',
+        pPrice:"£35.00",
+        pDiscountPrice:"£27.00",
+        pText:"PRINTED BLUE TSHIRT",
+        subTitle:"T-Shirt"
+    },
+    {
+        id:11,
+        img:'../Assets/tshirt.png',
+        pPrice:"£35.00",
+        pDiscountPrice:"£27.00",
+        pText:"PRINTED BLUE TSHIRT",
+        subTitle:"T-Shirt"
+    },
+    {
+        id:12,
+        img:'../Assets/tshirt.png',
+        pPrice:"£35.00",
+        pDiscountPrice:"£27.00",
+        pText:"PRINTED BLUE TSHIRT",
+        subTitle:"T-Shirt"
+    },
+];
+
 
   
   
