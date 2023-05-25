@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./ServiceItem.module.scss";
-const ServiceItem = () => {
+const ServiceItem = ({data}) => {
   return (
     <>
     <div className={styles.card_col}>
@@ -8,57 +8,12 @@ const ServiceItem = () => {
             <div className={styles.card_wrapper}>
                 <div className={styles.card_icon}>
                     <span className={styles.icon}>
-                    <i class="fas fa-shipping-fast"></i>
+                    <i class={data.icon}></i>
                     </span>
                 </div>
                 <div className={styles.card_text}>
-                    <h4>Fast Delivery</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div className={styles.card_col}>
-        <div className={styles.card}>
-            <div className={styles.card_wrapper}>
-                <div className={styles.card_icon}>
-                    <span className={styles.icon}>
-                    <i class="fas fa-shipping-fast"></i>
-                    </span>
-                </div>
-                <div className={styles.card_text}>
-                    <h4>Fast Delivery</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div className={styles.card_col}>
-        <div className={styles.card}>
-            <div className={styles.card_wrapper}>
-                <div className={styles.card_icon}>
-                    <span className={styles.icon}>
-                    <i class="fas fa-shipping-fast"></i>
-                    </span>
-                </div>
-                <div className={styles.card_text}>
-                    <h4>Fast Delivery</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div className={styles.card_col}>
-        <div className={styles.card}>
-            <div className={styles.card_wrapper}>
-                <div className={styles.card_icon}>
-                    <span className={styles.icon}>
-                    <i class="fas fa-shipping-fast"></i>
-                    </span>
-                </div>
-                <div className={styles.card_text}>
-                    <h4>Fast Delivery</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+                    <h4>{data.sTitle}</h4>
+                    <p>{data.sText}</p>
                 </div>
             </div>
         </div>

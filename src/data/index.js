@@ -115,11 +115,7 @@ export const featuredData = [
         pText:"PRINTED BLUE TSHIRT",
         subTitle:"T-Shirt"
     },
-];
-
-
-  
-  
+];  
 export const blogData = [
     {
         id:1,
@@ -150,5 +146,69 @@ export const blogData = [
         bdImg:"https://www.graana.com/home-page-images/blogUserDummyImage.svg",
         bWriter:"Laila Waqar",
         bDate:"April 19,2023 1min read",
+    },
+];
+export const servicesData = [
+    {
+        id:1,
+        icon:'fas fa-shipping-fast',
+        sTitle:"Fast Delivery",
+        sText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.",
+    },
+    {
+        id:2,
+        icon:'fas fa-shipping-fast',
+        sTitle:"Fast Delivery",
+        sText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.",
+    },
+    {
+        id:3,
+        icon:'fas fa-shipping-fast',
+        sTitle:"Fast Delivery",
+        sText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.",
+    },
+    {
+        id:4,
+        icon:'fas fa-shipping-fast',
+        sTitle:"Fast Delivery",
+        sText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.",
+    },
+];
+export const aboutServicesData = [
+    {
+        id:1,
+        icon:'fa-sharp fa-regular fa-tag',
+        sTitle:"Best Prices & Offers",
+        sText:"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+    },
+    {
+        id:2,
+        icon:'fa-regular fa-handshake',
+        sTitle:"Wide Assortment",
+        sText:"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+    },
+    {
+        id:3,
+        icon:'fa-sharp fa-solid fa-file-contract',
+        sTitle:"Free Delivery",
+        sText:"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+    },
+    {
+        id:4,
+        icon:'fa-solid fa-right-left',
+        sTitle:"Easy Returns",
+        sText:"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+    },
+    {
+        id:5,
+        icon:'fa-regular fa-hand-holding-dollar',
+        sTitle:"100% Satisfaction",
+        sText:"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+    },
+    {
+        id:6,
+        icon:'fa-brands fa-ideal',
+        sTitle:"Great Daily Deal",
+        sText:"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
     },
 ];

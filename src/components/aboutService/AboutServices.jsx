@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from "./AboutServices.module.scss";
+import {aboutServicesData} from "../../data/index";
 import AboutServiceItem from './AboutServiceItem';
+
 const AboutServices = () => {
   return (
     <div className={styles.services_container}>
@@ -10,7 +12,9 @@ const AboutServices = () => {
         </div>
         <div className={styles.services_section}>
             <div className={styles.services_cards}>
-                <AboutServiceItem/>
+               {aboutServicesData.map((data)=>{
+                 return <AboutServiceItem data={data}/>
+               })}
             </div>
         </div>
     </div>
