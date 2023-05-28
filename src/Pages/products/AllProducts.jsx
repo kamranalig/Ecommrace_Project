@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./AllProduct.module.scss";
+import Products from '../../commonComponent/products/Products';
 const AllProducts = () => {
   return (
     <>
@@ -118,7 +119,7 @@ const AllProducts = () => {
           </div>
         </div>
         <div className="col-md-9 col-sm-12 col-xs-12 col-main">
-
+          <Products/>
         </div>
       </div>
     </div>
