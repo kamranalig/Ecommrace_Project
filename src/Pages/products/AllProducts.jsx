@@ -36,11 +36,11 @@ const AllProducts = () => {
             </div>
           </div>
           <div className={styles.sidebar_block}>
-            <div className={styles.size_block}>
+            <div className={styles.block}>
               <div className={styles.title}>
                 <h3>SIZE OPTION</h3>
               </div>
-              <div className={styles.size_content}>
+              <div className={styles.content}>
                 <ul>
                   <li>
                     <input type="checkbox" value="xs"/>
@@ -61,6 +61,56 @@ const AllProducts = () => {
                   <li>
                     <input type="checkbox" value="xl"/>
                     <label>XL</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+             <div className={styles.block}>
+              <div className={styles.title}>
+                <h3>PRICE OPTION</h3>
+              </div>
+              <div className={styles.content}>
+                <ul>
+                  <li>
+                    <input type="checkbox" value="xs"/>
+                    <label>0 - 49$</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" value="s"/>
+                    <label>50$ - 99$</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" value="M"/>
+                    <label>100$ - 149$</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" value="l"/>
+                    <label>200$ - 500$</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className={styles.block}>
+              <div className={styles.title}>
+                <h3>BRAND OPTION</h3>
+              </div>
+              <div className={styles.content}>
+                <ul>
+                  <li>
+                    <input type="checkbox" value="xs"/>
+                    <label>New Look</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" value="s"/>
+                    <label>Marvis</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" value="M"/>
+                    <label>Dolce & Gabbana</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" value="l"/>
+                    <label>Gucci</label>
                   </li>
                 </ul>
               </div>
