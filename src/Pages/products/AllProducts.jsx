@@ -27,7 +27,7 @@ const AllProducts = () => {
          <div className='row'>
        {featuredData.map((data)=>{
            return  (
-              <div className='col-lg-4'>
+              <div className='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
               <div className={styles.card}>
               <img src={data.img} alt={data.pText} className='w-100' />
               <h6>{data.pText}</h6>
