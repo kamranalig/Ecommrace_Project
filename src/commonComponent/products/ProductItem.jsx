@@ -3,12 +3,13 @@ import styles from "./ProductItem.module.scss";
 const ProductItem = ({data}) => {
     return (
         <>
+        
         <div className='col-xl-3 col-lg-4 col-md-6 col-sm-12'>
+        <div className={styles.container}>
             <div className={styles.card}>
                 <div className={styles.card_image}>
-                    <span className={styles.circle}>Sale!</span>
                     <img src={data.img} alt={data.pTitle} />
-                    <p className={styles.hover_text}>Quick View</p>
+                   <button className={styles.quick_btn}>Quick View</button>
                 </div>
                 <div className={styles.card_text}>
                     <span className={styles.span_text}>{data.subTitle}</span>
@@ -23,6 +24,7 @@ const ProductItem = ({data}) => {
                         <span>{data.pDiscountPrice}</span>
                     </span>
                 </div>
+            </div>
             </div>
         </div>
         </>

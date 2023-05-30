@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "./DetailPage.module.scss";
 import img from "./tshirt.png";
+import { Link } from 'react-router-dom';
 const DetailPage = () => {
   return (
     <div className={styles.container}>
@@ -31,7 +32,7 @@ const DetailPage = () => {
         <button className={styles.countBtn}>-</button>
         </div>
         <div className='text-center d-block mb-3 pb-3'>
-          <button className={styles.btn}>Add To Cart</button>
+          <Link to="/cart"><button className={styles.btn}>Add To Cart</button></Link>
         </div>
       </div>
     </div>
