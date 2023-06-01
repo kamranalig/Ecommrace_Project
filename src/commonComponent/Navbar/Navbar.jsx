@@ -21,7 +21,7 @@ const AppNavbar = () => {
         </Nav>
         <Nav>
         <Link to="./login" className={styles.item}><Nav.Link href="#Login"><i class="fa-solid fa-right-to-bracket"></i></Nav.Link></Link>
-        <Link to="./cart"  className={styles.item}><Nav.Link href="#cart"><i class="fa-solid fa-cart-shopping"></i></Nav.Link></Link>
+        <Link to="./cart"  className={styles.item}><Nav.Link href="#cart"><i class="fa-solid fa-cart-shopping">Add To Cart</i></Nav.Link></Link>
         </Nav>
       </Navbar.Collapse>
     </Container>

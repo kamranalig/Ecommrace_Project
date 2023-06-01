@@ -1,8 +1,15 @@
-import React from 'react';
+import React,{useState} from 'react';
 import styles from "./DetailPage.module.scss";
 import img from "./tshirt.png";
 import { Link } from 'react-router-dom';
 const DetailPage = () => {
+  const [count, setCount] = useState(1);
+  const handleIncrement = () =>{
+    setCount(count+1)
+  }
+  const handleDecrement = () =>{
+    setCount(count-1)
+  }
   return (
     <div className={styles.container}>
       <div className={styles.img_block}>
@@ -27,12 +34,13 @@ const DetailPage = () => {
         </p>
         <b>Price : £35.00</b>
         <div className={styles.counter}>
-        <button className={styles.countBtn}>+</button>
-        <span>0</span>
-        <button className={styles.countBtn}>-</button>
+        <button className={styles.countBtn} onClick={handleDecrement}>-</button>
+        <span>{count}</span>
+        <button className={styles.countBtn} onClick={handleIncrement}>+</button>
         </div>
         <div className='text-center d-block mb-3 pb-3'>
-          <Link to="/cart"><button className={styles.btn}>Add To Cart</button></Link>
+          <button className={styles.btn}>Add To Cart</button>
+          <Link to="/cart"><button className={styles.btn}>Go To Cart</button></Link>
         </div>
       </div>
     </div>
