@@ -18,11 +18,11 @@ export const discountData = [
         dText:"On Bags",
     },
 ];
-export const featuredData = [
+export const productsList = [
     {
         id:1,
         img:'../Assets/tshirt.png',
-        pPrice:"£35.00",
+        pPrice:35.00,
         pDiscountPrice:"£27.00",
         pText:"PRINTED BLUE TSHIRT",
         subTitle:"T-Shirt"

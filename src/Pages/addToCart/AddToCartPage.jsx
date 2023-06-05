@@ -1,21 +1,23 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from "./Cart.module.scss";
 import img from "../detailPage/tshirt.png";
-const AddToCartPage = () => {
-  const [count, setCount] = useState(1);
-  const handleIncrement = () =>{
-    setCount(count+1)
-  }
-  const handleDecrement = () =>{
-    setCount(count-1)
-  }
+const AddToCartPage = ({cartItems}) => {
+
   return (
+    <>
     <div className={styles.container}>
+        {cartItems.length ===  0 && (
+        <div>no Items are added</div>
+        )}
+
       <div className={styles.item_section}>
-        <div className={styles.item}>
+        {
+          cartItems.map((item)=>{
+            return(
+        <div className={styles.item} key={item.id}>
           <div className={styles.item_detail}>
             <div className={styles.img_wrap}>
-            <img src={img} alt="" />
+            <img src={item.img} alt={item.pText}/>
             </div>
             <div className={styles.text_wrap}>
               <h3>PRINTED BLUE TSHIRT</h3>
@@ -29,16 +31,20 @@ const AddToCartPage = () => {
             <p>50%</p>
           </div>
       <div className={styles.counter}>
-        <button className={styles.countBtn} onClick={handleDecrement}>-</button>
-        <span>{count}</span>
-        <button className={styles.countBtn} onClick={handleIncrement}>+</button>
+        <button className={styles.countBtn}>-</button>
+        <span>1</span>
+        <button className={styles.countBtn}>+</button>
       </div>
         </div>
+            )
+          })
+        }
       </div>
       <div className={styles.bill_section}>
         <button className={styles.final_btn}>Proceed To Pay</button>
       </div>
     </div>
+    </>
   )
 }
 

@@ -10,7 +10,9 @@ const ProductItem = ({data}) => {
             <div className={styles.card}>
                 <div className={styles.card_image}>
                     <img src={data.img} alt={data.pTitle} />
-                <Link to="detail"><button className={styles.quick_btn}>Quick View</button></Link>
+                <Link to={`/products/${data.id}`}>
+                    <button className={styles.quick_btn}>Quick View</button>
+                </Link>
                 </div>
                 <div className={styles.card_text}>
                     <span className={styles.span_text}>{data.subTitle}</span>
@@ -28,18 +30,6 @@ const ProductItem = ({data}) => {
             </div>
             </div>
         </div>
-        {/* <div className='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
-              <div className={styles.card}>
-              <img src={data.img} alt={data.pText} className='w-100' />
-              <h6>{data.pText}</h6>
-              <p>{data.subTitle}</p>
-              <p>Price : {data.pPrice}</p>
-              <div className='text-center d-block mb-3 pb-3'>
-             <Link to="/detail"><button className={styles.btn}>View Detail</button></Link> 
-              <button className={styles.btn}>Add To Cart</button>
-              </div>
-              </div>
-              </div> */}
         </>
     )
 }
