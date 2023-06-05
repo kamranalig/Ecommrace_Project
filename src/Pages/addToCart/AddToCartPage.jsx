@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from "./Cart.module.scss";
-import img from "../detailPage/tshirt.png";
 const AddToCartPage = ({cartItems}) => {
 
   return (

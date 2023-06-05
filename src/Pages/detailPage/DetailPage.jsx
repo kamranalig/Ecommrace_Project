@@ -44,11 +44,9 @@ const DetailPage = () => {
           <i className="fa-solid fa-star"></i>
           <i className="fa-solid fa-star"></i>
         </p>
-
-        {/* OPTIONAL CHAINING */}
-
+        
         <b>
-          Price : 
+          Price : RS {product.pPrice}
         </b>
         <div className={styles.counter}>
           <button className={styles.countBtn} onClick={handleDecrement}>

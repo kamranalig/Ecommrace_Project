@@ -25,7 +25,8 @@ export const productsList = [
         pPrice:35.00,
         pDiscountPrice:"£27.00",
         pText:"PRINTED BLUE TSHIRT",
-        subTitle:"T-Shirt"
+        subTitle:"T-Shirt",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maiores minima doloribus tempore facere debitis error tenetur nulla reprehenderit voluptates culpa eos quaerat, quia placeat aspernatur nihil cupiditate. Eos, expedita?"
     },
     {
         id:2,
@@ -33,7 +34,8 @@ export const productsList = [
         pPrice:"£35.00",
         pDiscountPrice:"£27.00",
         pText:"PRINTED BLUE TSHIRT",
-        subTitle:"T-Shirt"
+        subTitle:"T-Shirt",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maiores minima doloribus tempore facere debitis error tenetur nulla reprehenderit voluptates culpa eos quaerat, quia placeat aspernatur nihil cupiditate. Eos, expedita?"
     },
     {
         id:3,
@@ -41,7 +43,8 @@ export const productsList = [
         pPrice:"£35.00",
         pDiscountPrice:"£27.00",
         pText:"PRINTED BLUE TSHIRT",
-        subTitle:"T-Shirt"
+        subTitle:"T-Shirt",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maiores minima doloribus tempore facere debitis error tenetur nulla reprehenderit voluptates culpa eos quaerat, quia placeat aspernatur nihil cupiditate. Eos, expedita?"
     },
     {
         id:4,
@@ -49,7 +52,8 @@ export const productsList = [
         pPrice:"£35.00",
         pDiscountPrice:"£27.00",
         pText:"PRINTED BLUE TSHIRT",
-        subTitle:"T-Shirt"
+        subTitle:"T-Shirt",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maiores minima doloribus tempore facere debitis error tenetur nulla reprehenderit voluptates culpa eos quaerat, quia placeat aspernatur nihil cupiditate. Eos, expedita?"
     },
     {
         id:5,
@@ -57,7 +61,8 @@ export const productsList = [
         pPrice:"£35.00",
         pDiscountPrice:"£27.00",
         pText:"PRINTED BLUE TSHIRT",
-        subTitle:"T-Shirt"
+        subTitle:"T-Shirt",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maiores minima doloribus tempore facere debitis error tenetur nulla reprehenderit voluptates culpa eos quaerat, quia placeat aspernatur nihil cupiditate. Eos, expedita?"
     },
     {
         id:6,
@@ -65,23 +70,26 @@ export const productsList = [
         pPrice:"£35.00",
         pDiscountPrice:"£27.00",
         pText:"PRINTED BLUE TSHIRT",
-        subTitle:"T-Shirt"
+        subTitle:"T-Shirt",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maiores minima doloribus tempore facere debitis error tenetur nulla reprehenderit voluptates culpa eos quaerat, quia placeat aspernatur nihil cupiditate. Eos, expedita?"
     },
     {
         id:7,
         img:'../Assets/tshirt.png',
-        pPrice:"£35.00",
+        pPrice:35.00,
         pDiscountPrice:"£27.00",
         pText:"PRINTED BLUE TSHIRT",
-        subTitle:"T-Shirt"
+        subTitle:"Bags",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maiores minima doloribus tempore facere debitis error tenetur nulla reprehenderit voluptates culpa eos quaerat, quia placeat aspernatur nihil cupiditate. Eos, expedita?"
     },
     {
         id:8,
         img:'../Assets/tshirt.png',
-        pPrice:"£35.00",
+        pPrice:35.00,
         pDiscountPrice:"£27.00",
         pText:"PRINTED BLUE TSHIRT",
-        subTitle:"T-Shirt"
+        subTitle:"T-Shirt",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maiores minima doloribus tempore facere debitis error tenetur nulla reprehenderit voluptates culpa eos quaerat, quia placeat aspernatur nihil cupiditate. Eos, expedita?"
     },
     {
         id:9,
@@ -89,7 +97,8 @@ export const productsList = [
         pPrice:"£35.00",
         pDiscountPrice:"£27.00",
         pText:"PRINTED BLUE TSHIRT",
-        subTitle:"T-Shirt"
+        subTitle:"T-Shirt",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maiores minima doloribus tempore facere debitis error tenetur nulla reprehenderit voluptates culpa eos quaerat, quia placeat aspernatur nihil cupiditate. Eos, expedita?"
     },
     {
         id:10,
@@ -97,7 +106,8 @@ export const productsList = [
         pPrice:"£35.00",
         pDiscountPrice:"£27.00",
         pText:"PRINTED BLUE TSHIRT",
-        subTitle:"T-Shirt"
+        subTitle:"T-Shirt",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maiores minima doloribus tempore facere debitis error tenetur nulla reprehenderit voluptates culpa eos quaerat, quia placeat aspernatur nihil cupiditate. Eos, expedita?"
     },
     {
         id:11,
@@ -105,7 +115,8 @@ export const productsList = [
         pPrice:"£35.00",
         pDiscountPrice:"£27.00",
         pText:"PRINTED BLUE TSHIRT",
-        subTitle:"T-Shirt"
+        subTitle:"T-Shirt",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maiores minima doloribus tempore facere debitis error tenetur nulla reprehenderit voluptates culpa eos quaerat, quia placeat aspernatur nihil cupiditate. Eos, expedita?"
     },
     {
         id:12,
@@ -113,7 +124,8 @@ export const productsList = [
         pPrice:"£35.00",
         pDiscountPrice:"£27.00",
         pText:"PRINTED BLUE TSHIRT",
-        subTitle:"T-Shirt"
+        subTitle:"T-Shirt",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maiores minima doloribus tempore facere debitis error tenetur nulla reprehenderit voluptates culpa eos quaerat, quia placeat aspernatur nihil cupiditate. Eos, expedita?"
     },
 ];  
 export const blogData = [
