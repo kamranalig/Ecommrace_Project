@@ -34,7 +34,7 @@ const AllProducts = () => {
               <p>{data.subTitle}</p>
               <p>Price : {data.pPrice}</p>
               <div className='text-center d-block mb-3 pb-3'>
-             <Link to="/products/:id"><button className={styles.btn}>View Detail</button></Link> 
+             <Link to={`/products/${data.id}`}><button className={styles.btn}>View Detail</button></Link> 
               <button className={styles.btn}>Add To Cart</button>
               </div>
               </div>

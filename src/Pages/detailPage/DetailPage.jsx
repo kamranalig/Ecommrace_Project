@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import styles from "./DetailPage.module.scss";
-import img from "./tshirt.png";
 import { productsList } from "../../data";
 
 const DetailPage = () => {
@@ -30,7 +29,7 @@ const DetailPage = () => {
     <div className={styles.container}>
       <div className={styles.img_block}>
         <div className={styles.img}>
-          <img src={img} alt="" />
+          <img src={product.img} alt={product.pText} />
         </div>
       </div>
       <div className={styles.text_block}>
